@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+html,
+body {
+  height: 100%;
+}
+body {
+  background: #2a2a72; 
+  background: -webkit-linear-gradient(
+    to top,
+    #009ffd,
+    #2a2a72
+  ); 
+  background: linear-gradient(
+    to top,
+    #009ffd,
+    #2a2a72
+  );
+  background-attachment: fixed;
+  font-family: "Kanit", sans-serif;
+}
+
+h1 span {
+  color: #009ffd;
+}
+ul {
+  list-style: none;
+}
+.download{
+  text-align: center;
+}
+.download a i {
+  color: #2a2a72;
+  
+}
+.download a{
+  font-size: 30px;
+  cursor: pointer;
+
+}
+.download a:hover i{
+  color: #009ffd;
+
+}
+ul li::before {
+  content: "\2022";
+  color:  #009ffd;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+hr {
+  border: 1px solid #2a2a72;
+  width: 20%;
+}
+.main {
+  background-color: white;
+  border-radius: 10px;
+  
+  width: 85%;
+}
+.footer_ligne {
+  border: 1px solid #2a2a72;
+  width: 100%;
+}
+.footer_text span {
+  color: #009ffd;
+}
+.footer_text:hover {
+  color: #009ffd;
+}
+.form-control:focus {
+  border-color: #009ffd;
+  box-shadow: 0 0 0 0.2rem rgb(0 62 99 / 25%);
+}
+.custom-file-input:lang(en) ~ .custom-file-label::after {
+  background-color: #009ffd;
+}
+.mybtn {
+  color: #009ffd;
+  background: white;
+  border-color: #009ffd;
+  width: 15%;
+}
+.mybtn:hover {
+  color: white;
+  background: #009ffd;
+  border-color: white;
+  width: 15%;
+}
+btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background: #009ffd;
+  border-color: white;
+}
+
+a {
+  text-decoration: none !important;
+  color: black;
+}
+a:hover {
+  text-decoration: none !important;
+  color: #009ffd;
+}
+
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+  background-color: transparent;
+}
+table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1 {
+  background-color: transparent;
+}
+table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
+  background-color: transparent;
+ 
+}
+table.dataTable.display tbody tr:hover>.sorting_1, table.dataTable.order-column.hover tbody tr:hover>.sorting_1 {
+  background-color: transparent;
+}
+#tb > tbody > tr:hover {
+  background-color:  rgb(0 62 99 / 15%);
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+  color: #333 !important;
+  border: 1px solid #009ffd;
+  background-color: transparent;
+}
+.skill{
+  padding: 3px 15px;
+  margin: 3px;
+ 
+  text-align: left;
+  letter-spacing: 0.17px;
+}
+.skill:hover {
+  font-weight: bolder;
+}
+
+.link_profile{
+  text-decoration: none;
+  color: black;
+
+}
+.link_profile:hover{
+  font-weight: bolder;
+}
+
+small{
+  font-size: 10px;
+}
+table.dataTable tbody td {
+  word-break: break-word;
+  vertical-align: top;
+}
